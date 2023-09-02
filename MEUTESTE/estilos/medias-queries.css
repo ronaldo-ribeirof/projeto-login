@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(#5f2c82, #49a09d);
+    }
+
+    section {
+        /* width: 620px; */
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#imagem {
+        background-image: url(../imagens/metal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+
+        border-radius: 20px 0px 0px 20px;
+
+        /* width: 188px; */
+        width: 186px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    section>div>h1 {
+        font-size: 100px;
+        color: black;
+    }
+
+    section>div>p {
+        padding: 0px 10px 5px 10px;
+        text-align: left;
+
+        font-size: 13px;
+        line-height: 17.5px;
+    }
+
+    div.inputs {
+        background-color: var(--cor1);
+
+        width: 230px;
+        height: 40px;
+
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 5px;
+
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    input {
+        border: none;
+        border-radius: 8px;
+
+        margin-right: 3px;
+
+        width: 180px;
+        height: 36px;
+
+        background-color: #94CFCD;
+        display: block;
+    }
+
+    i.material-icons {
+        color: white;
+        font-size: 29px;
+        margin-right: 10px;
+    }
+
+    input#submit {
+        border-radius: 5px;
+
+        background-color: #53aaa7;
+        color: white;
+
+        margin: auto;
+
+        width: 92%;
+        height: 40px;
+
+        font-size: medium;
+    }
+
+    div#esquecisenha {
+        text-align: center;
+        background-color: white;
+        border: 1px solid #49a09d;
+
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 5px;
+    }
+
+    a#linksenha {
+        text-decoration: none;
+        color: #275755;
+
+    }
+
+    i#iconeemail {
+        color: #275755;
+        font-size: 12.5px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    section {
+        width: 950px;
+        height: 350px;
+    }
+
+    div#imagem {
+        background-image: url(../imagens/metal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+
+        border-radius: 20px 0px 0px 20px;
+
+        /* width: 188px; */
+        width: 186px;
+        height: 100%;
+        overflow: hidden;
+    }
+}
